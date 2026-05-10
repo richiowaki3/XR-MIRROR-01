@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XRmirror01 | Standalone XR System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- Layer 0: Camera Background -->
+        <video id="webcam" autoplay playsinline muted></video>
+        
+        <!-- Layer 1: 3D Foreground -->
+        <canvas id="xr-canvas"></canvas>
+
+        <!-- UI Overlay -->
+        <div id="ui-overlay">
+            <div id="start-screen">
+                <h1 id="app-title">XR MIRROR<span>01</span></h1>
+                
+                <!-- Options Toggle -->
+                <div class="options-container">
+                    <label class="toggle-item">
+                        <input type="checkbox" id="toggle-afterimage" checked>
+                        <span class="toggle-label">AFTERIMAGE</span>
+                    </label>
+                    <label class="toggle-item">
+                        <input type="checkbox" id="toggle-timemachine" checked>
+                        <span class="toggle-label">TIMEMACHINE</span>
+                    </label>
+                    <label class="toggle-item">
+                        <input type="checkbox" id="toggle-timemachine-hand" checked>
+                        <span class="toggle-label">TIMEMACHINE-HAND</span>
+                    </label>
+                    <label class="toggle-item">
+                        <input type="checkbox" id="toggle-gravitybox">
+                        <span class="toggle-label">GRAVITYBOX</span>
+                    </label>
+                </div>
+
+                <button id="start-button">START</button>
+            </div>
+
+            <div id="info-panel" class="hidden">
+                <div class="status">SYSTEM ONLINE <span id="tracking-status" class="off">(NO TRACKING)</span></div>
+                <div id="fps-counter">00 FPS</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Removed Importmap and CDN for MediaPipe to rely on NPM + Vite fully -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
