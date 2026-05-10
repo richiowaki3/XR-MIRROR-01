@@ -57,18 +57,24 @@
 ---
 
 ## 🚀 起動方法
+
 1. 準備：Node.js のインストール
 そのPCにまだ入っていない場合は、Node.js公式サイト から LTS版 をインストールしておく必要があります。 https://nodejs.org/ja/download （これがないと npm コマンドが使えません）
+
 2. コードのダウンロード
 GitHubのリポジトリ画面から、以下のいずれかを行います。
-Gitが使える場合: ターミナルで `git clone https://github.com/richiowaki3/XR-MIRROR-01.git`を実行。
-Gitがない場合: 緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、解凍します。
-3. ライブラリの復元（超重要）
+Gitが使える場合:
+ターミナルで `git clone https://github.com/richiowaki3/XR-MIRROR-01.git`を実行。
+Gitがない場合:
+緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、解凍します。
+
+4. ライブラリの復元（超重要）
 解凍したフォルダの中でターミナル（WindowsならPowerShellやコマンドプロンプト）を開き、以下のコマンドを打ちます。
 
 `npm install`
 
 ※ GitHubには重たいライブラリ群（node_modules）はアップロードしていないため、このコマンドで**「設計図（package.json）」を元に、そのPCにライブラリを再構築**します。
+
 4. 起動
 最後に、いつものコマンドで開発サーバーを立ち上げます。
 
