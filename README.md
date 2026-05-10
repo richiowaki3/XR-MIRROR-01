@@ -58,7 +58,7 @@
 
 ## 🚀 起動方法
 1. 準備：Node.js のインストール
-そのPCにまだ入っていない場合は、Node.js公式サイト から LTS版 をインストールしておく必要があります。 https://nodejs.org/ja/download（これがないと npm コマンドが使えません）
+そのPCにまだ入っていない場合は、Node.js公式サイト から LTS版 をインストールしておく必要があります。 https://nodejs.org/ja/download （これがないと npm コマンドが使えません）
 2. コードのダウンロード
 GitHubのリポジトリ画面から、以下のいずれかを行います。
 Gitが使える場合: ターミナルで `git clone https://github.com/richiowaki3/XR-MIRROR-01.git`を実行。
