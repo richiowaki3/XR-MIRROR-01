@@ -65,13 +65,13 @@ Gitが使える場合: ターミナルで `git clone https://github.com/richiowa
 Gitがない場合: 緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、解凍します。
 3. ライブラリの復元（超重要）
 解凍したフォルダの中でターミナル（WindowsならPowerShellやコマンドプロンプト）を開き、以下のコマンドを打ちます。
----
-npm install
----
+
+`npm install`
+
 ※ GitHubには重たいライブラリ群（node_modules）はアップロードしていないため、このコマンドで**「設計図（package.json）」を元に、そのPCにライブラリを再構築**します。
 4. 起動
 最後に、いつものコマンドで開発サーバーを立ち上げます。
----
-npm run dev
----
+
+`npm run dev`
+
 ターミナルに表示された`http://localhost:5173`をブラウザで開けば起動完了です！
