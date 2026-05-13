@@ -9,6 +9,7 @@
 
 開発を始める前に、以下の**「5つのコンセプト」**を決定してください。
 
+
 ### 1. プロジェクトタイトル (Project Title)
 あなたの鏡にはどんな名前を付けますか？（例: "Ghost Mirror", "Future Scanner", "Speed Ribbon"）
 - `index.html` の `<h1 id="app-title">` を書き換えてください。
@@ -67,6 +68,7 @@ Gitが使える場合:
 ターミナルで `git clone https://github.com/richiowaki3/XR-MIRROR-01.git`を実行。
 Gitがない場合:
 緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、解凍します。
+<img width="1086" height="934" alt="スクリーンショット 2026-05-14 060815" src="https://github.com/user-attachments/assets/e7ac6e3e-9c47-46fb-bae1-64367fd03924" />
 
 4. ライブラリの復元（超重要）
 解凍したフォルダの中でターミナル（WindowsならPowerShellやコマンドプロンプト）を開き、以下のコマンドを打ちます。
