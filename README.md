@@ -67,11 +67,11 @@ GitHubのリポジトリ画面から、以下のいずれかを行います。
 Gitが使える場合:
 ターミナルで `git clone https://github.com/richiowaki3/XR-MIRROR-01.git`を実行。
 Gitがない場合:
-緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、解凍します。
+緑色の「<> Code」ボタンをクリックして「Download ZIP」を選び、右クリックして「すべて展開（解凍）」解凍します。
 <img width="1086" height="934" alt="スクリーンショット 2026-05-14 060815" src="https://github.com/user-attachments/assets/e7ac6e3e-9c47-46fb-bae1-64367fd03924" />
 
 4. ライブラリの復元（超重要）
-解凍したフォルダの中でターミナル（WindowsならPowerShellやコマンドプロンプト）を開き、以下のコマンドを打ちます。
+解凍したフォルダの中でターミナル（WindowsならPowerShellやコマンドプロンプト）を開き、まず以下のフォルダーの場所に移動`cd C:\自分のコンピュータの保存した場所\XR-MIRROR-01-main`以下の後、以下のコマンドを打ちます。
 
 `npm install`
 
