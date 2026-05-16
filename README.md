@@ -10,12 +10,16 @@
 デモのsceneの解説
 
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h39m30s347" src="https://github.com/user-attachments/assets/039102e5-dce9-4cc8-ba23-eea31a9b99bc" />
+
 これは手の動きの軌跡を描写し、動きに合わせてホワイトノイズがなるシーンです。
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h40m00s353" src="https://github.com/user-attachments/assets/db2e35c9-9f41-48db-9dfe-858cba0245d6" />
+timemachine
 これは３秒前の自分を黄色の線で、３秒後の自分を予測して青色で表示するシーンです。
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h40m38s793" src="https://github.com/user-attachments/assets/74fe2f8b-a8b9-4da5-ad77-df45a5caf09f" />
+timemachine hand
 これは、３秒前の手の形を表示するシーンです
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h41m31s253" src="https://github.com/user-attachments/assets/79286456-03cf-4dfb-ba99-014c1b7be097" />
+gravity box
 これは、右手を上げると赤いキューブが降ってきて、左手を上げるときゅぶが膨らんで消えるシーンです。
 このように、アイデアをすぐに実現できます。
 
