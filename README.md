@@ -2,8 +2,13 @@
 # XR MIRROR 01 - Workshop System
 
 このプロジェクトは、MediaPipeとThree.jsを使用した、スタンドアロン型のXR鏡面システムです。
-ワークショップの参加者は、このベースアプリを使用して、自分だけの「魔法の鏡」を拡張・実装していきます。
+そのままでも使用できますが、ワークショップでは、参加者がこのベースアプリをエージェントAIの読み込ませることで、新たな自分だけの「魔法の鏡」を拡張・実装していきます。
 以下は見本で入っている４つのシーンを紹介します。
+
+--
+
+デモのsceneの解説
+
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h39m30s347" src="https://github.com/user-attachments/assets/039102e5-dce9-4cc8-ba23-eea31a9b99bc" />
 これは手の動きの軌跡を描写し、動きに合わせてホワイトノイズがなるシーンです。
 <img width="1080" height="1920" alt="vlcsnap-2026-05-16-09h40m00s353" src="https://github.com/user-attachments/assets/db2e35c9-9f41-48db-9dfe-858cba0245d6" />
